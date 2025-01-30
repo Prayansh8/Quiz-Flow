@@ -1,0 +1,29 @@
+body.light {
+    background-color: #f8f9fa; /* Light background */
+    color: #212529; /* Dark text */
+  }
+  
+  /* Dark Mode Styles */
+  body.dark {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+  }
+  
+  /* Navbar Styles Adjusted for Dark Mode */
+  body.dark .navbar {
+    background-color: #343a40 !important; /* Dark navbar background */
+  }
+  
+  body.light .navbar {
+    background-color: #f8f9fa !important; /* Light navbar background */
+  }
+  
+  body.dark .navbar .navbar-brand,
+  body.dark .navbar .nav-link {
+    color: #f8f9fa !important; /* Light text in dark mode */
+  }
+  
+  body.light .navbar .navbar-brand,
+  body.light .navbar .nav-link {
+    color: #212529 !important; /* Dark text in light mode */
+  }

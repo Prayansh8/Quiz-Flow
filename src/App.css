@@ -1,0 +1,9 @@
+body.light {
+  background-color: #f8f9fa; /* Light mode background */
+  color: #212529; /* Light mode text */
+}
+
+body.dark {
+  background-color: #212529; /* Dark mode background */
+  color: #f8f9fa; /* Dark mode text */
+}
