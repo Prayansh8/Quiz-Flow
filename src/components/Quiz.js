@@ -1,12 +1,11 @@
 
 import React, { useState, useContext } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import quizData from '../data/quizData.json';
 import { GamificationContext } from '../context/GamificationContext';
 import { Container, Row, Col, Button, ProgressBar as BootstrapProgressBar, Card, Alert } from 'react-bootstrap';
 
 const Quiz = () => {
-  const { quizId } = useParams();
   const navigate = useNavigate();
   const { addPoints, deductPoints } = useContext(GamificationContext);
 
